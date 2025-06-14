@@ -19,7 +19,7 @@ function Aiquiz() {
 
     try {
       const response = await axios.post(
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=YOUR_API_KEY`,
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyB2DvSR24KJCaTrajFeDs_QTxygPw55QNU`,
         {
           contents: [
             {
